@@ -1,4 +1,5 @@
 scalaOrganization in ThisBuild := "org.typelevel"
+
 scalaVersion      in ThisBuild := "2.11.8"
 
 scalacOptions in Global ++= Seq(
