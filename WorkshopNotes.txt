@@ -1,0 +1,16 @@
+Shapeless...
+Typeclasses
+Library for generic programming 
+
+pattern lookup functionality based on code constraints
+
+Dependent types
+// trait for dependnet types
+trait Generic[A] {    /// A input type
+	type Repr			/// Repr is the output type
+	def to(a: A): Repr
+	def from(r: Repr): A
+}
+
+def generigt
+gen.to(a)   ===> the return type is gen.Repr
